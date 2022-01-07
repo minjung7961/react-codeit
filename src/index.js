@@ -18,5 +18,5 @@ ReactDOM.render(
     <input id="name" type="text" onBlur="" onFocus="" onMouseDown=""/>
   </form>
   ,
-  document.getElementById('root')
+  document.getElementById('root')// dom 요소들 중에서 root 라는 id 속성을 가지고있는 요소를 가져오라 어디있냐면 index.html 의 body 태그 밑에 div 태그에 있다.
 );
