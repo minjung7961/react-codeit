@@ -1,5 +1,7 @@
 import ReactDOM from 'react-dom';
 
+// 이 페이지는 index.html 이 실행되고 나서 실행되는 파일 리엑트 코드들중에서 가장먼저 실행됨
+
 // 리엑트에서 지원하는 jsx 라는분법
 
 /* jsx 에서는 모든 html 문법을 사용할수없다 
