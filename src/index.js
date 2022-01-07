@@ -11,6 +11,7 @@ import ReactDOM from 'react-dom';
   * 이벤트 핸들러를 사용할수 없다 (onfocus, onmousdown, onblur) 그래서 낙타채(카멜케이스)로 바꿔 써야 사용가능하다 -> (onFocus, onMousDown, onBlur)
 */
 
+// 첫번쨰 인자 html 문을 두번쨰 인자의 id 정보를보고 index.html 의 id 가 root 인 태그안에 첫번쨰 인자 값을 넣어 랜더링함
 ReactDOM.render(
   <form>
     <h1>안녕 리엑트!</h1>
