@@ -1,5 +1,6 @@
 import ReactDOM from 'react-dom';
 
+// 리엑트 컴포넌트
 function Hello(){
   return <h1> 안녕 리엑트 </h1>;
 }
@@ -7,8 +8,8 @@ function Hello(){
 const element = (
   <>
     {/*  jxm 문법을 커스텀 태그처럼 활용할 수도 있다.  */}
+    < Hello /> { /* <h1> 안녕 리엑트 </h1> 출력 */}
     < Hello /> 
-    < Hello />
     < Hello />
   </>
 );
