@@ -1,8 +1,8 @@
 import ReactDOM from 'react-dom';
 
 // 리엑트 컴포넌트
-function Hello(){
-  return <h1> 안녕 리엑트 </h1>;
+function Hello(){ // 리엑트 컴포넌트 함수로 쓰기위해선 반드시 대문자로 시작해야한다.
+  return <h1> 안녕 리엑트 </h1>; // jxm 문을 리턴해야함.
 }
 
 const element = (
